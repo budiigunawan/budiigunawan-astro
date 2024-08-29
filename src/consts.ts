@@ -2,7 +2,7 @@ import type { Site, Page, Links, Socials } from "@types";
 
 // Global
 export const SITE: Site = {
-  TITLE: "Budi Gunawan",
+  TITLE: "Budi Indra Gunawan",
   DESCRIPTION:
     "Welcome to my presonal website. A place to show my profile, projects, and blog.",
   AUTHOR: "Budi I. Gunawan",
@@ -43,12 +43,12 @@ export const LINKS: Links = [
     HREF: "/work",
   },
   {
-    TEXT: "Blog",
-    HREF: "/blog",
-  },
-  {
     TEXT: "Projects",
     HREF: "/projects",
+  },
+  {
+    TEXT: "Blog",
+    HREF: "/blog",
   },
 ];
 
