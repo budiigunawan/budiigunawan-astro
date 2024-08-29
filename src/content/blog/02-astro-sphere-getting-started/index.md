@@ -4,9 +4,9 @@ summary: "You've downloaded and installed the project. Let's hit the ground runn
 date: "Mar 16 2024"
 draft: false
 tags:
-- Tutorial
-- Astro
-- Astro Sphere
+  - Tutorial
+  - Astro
+  - Astro Sphere
 ---
 
 Astro Sphere is designed to be configurable. This article will cover the basics on
@@ -19,8 +19,13 @@ configuring the site and make it personal.
 
 export default defineConfig({
   site: "https://astro-sphere.vercel.app", // your domain here
-  integrations: [mdx(), sitemap(), solidJs(), tailwind({ applyBaseStyles: false })],
-})
+  integrations: [
+    mdx(),
+    sitemap(),
+    solidJs(),
+    tailwind({ applyBaseStyles: false }),
+  ],
+});
 ```
 
 ### Next, Let's configure the Site
@@ -43,7 +48,7 @@ export const SITE: Site = {
 
 ### Change the branding
 
-The browser icon is located in `/public/favicon.svg`
+The browser icon is located in `/public/favicon.ico`
 
 The header and footer branding icon is located in `/public/brand.svg` as a sprite with id="brand"
 
@@ -73,7 +78,7 @@ The social media links
 
 ```js
 export const SOCIALS: Socials = [
-  { 
+  {
     NAME: "Github",
     ICON: "github",
     TEXT: "markhorn-dev",
@@ -82,9 +87,9 @@ export const SOCIALS: Socials = [
 ]
 ```
 
-| Field | Type | Required | Description |
-| :---- | :--- | :------- | :---------- |
-| NAME  | string | yes | Accessible name |
-| ICON  | string | yes | Refers to the symbol id in `public/social.svg` |
-| TEXT  | string | yes | Shorthand profile name |
-| HREF  | string | yes | The link to the social media profile |
+| Field | Type   | Required | Description                                    |
+| :---- | :----- | :------- | :--------------------------------------------- |
+| NAME  | string | yes      | Accessible name                                |
+| ICON  | string | yes      | Refers to the symbol id in `public/social.svg` |
+| TEXT  | string | yes      | Shorthand profile name                         |
+| HREF  | string | yes      | The link to the social media profile           |
