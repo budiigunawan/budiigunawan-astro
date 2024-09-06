@@ -17,81 +17,57 @@ const projects = (await getCollection("projects"))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
 
-const stack = [
+const stacks = [
+  { 
+    text: "HTML", 
+  },
+  { 
+    text: "CSS", 
+  },
   { 
     text: "Javascript", 
-    icon: "javascript", 
-    href: "https://www.javascript.com" 
   },
   { 
     text: "Typescript", 
-    icon: "typescript", 
-    href: "https://www.typescriptlang.org" 
   },
   { 
-    text: "Tailwind", 
-    icon: "tailwind", 
-    href: "https://tailwindcss.com" 
+    text: "Tailwind CSS", 
   },
   { 
-    text: "React", 
-    icon: "react", 
-    href: "https://tailwindcss.com" 
+    text: "React JS", 
   },
   { 
-    text: "Next", 
-    icon: "next", 
-    href: "https://tailwindcss.com" 
+    text: "Next JS", 
   },
   { 
     text: "Vue", 
-    icon: "vue", 
-    href: "https://tailwindcss.com" 
   },
   { 
-    text: "Node JS", 
-    icon: "node", 
-    href: "https://tailwindcss.com" 
+    text: "Node JS",  
   },
   { 
     text: "Express JS", 
-    icon: "express", 
-    href: "https://tailwindcss.com" 
   },
   { 
-    text: "PostgreSQL", 
-    icon: "postgre", 
-    href: "https://tailwindcss.com" 
+    text: "PostgreSQL",
   },
   { 
     text: "Prisma", 
-    icon: "prisma", 
-    href: "https://tailwindcss.com" 
   },
   { 
     text: "Git", 
-    icon: "git", 
-    href: "https://tailwindcss.com" 
   },
   { 
-    text: "Jira", 
-    icon: "jira", 
-    href: "https://tailwindcss.com" 
+    text: "Jira",  
   },
   { 
     text: "Jest", 
-    icon: "jest", 
-    href: "https://tailwindcss.com" 
   },
   { 
     text: "Cypress", 
-    icon: "cypress", 
-    href: "https://tailwindcss.com" 
   },
   { 
     text: "Figma", 
-    icon: "figma", 
-    href: "https://tailwindcss.com" 
   },
 ]
 ---
@@ -167,7 +143,7 @@ const stack = [
             I love to <b><i>write codes</i></b>, <b><i>explore new things</i></b>, and <b><i>share knowledge</i></b>. I really enjoy learning about making web application. It's like being the architect and artist of the online world. I also like to write blog about web development and self-help book summaries.
           </p>
           <b>During my career</b>
-          <p>I have built products ranging from e-commerce order management system and product landing page to complex enterprise apps with focus on delivering fast, elegant code along with delightful user interfaces.</p>
+          <p>I have built products ranging from product landing page to complex order management system with focus on delivering fast, elegant code along with delightful user interfaces.</p>
           <b>Now</b>
           <p>I currently work as a software engineer at ParagonCorp, the biggest cosmetic manufacturer in Indonesia, where I do web application development.</p>
         </article>
@@ -180,12 +156,10 @@ const stack = [
             My tech stacks
           </p>
           <div class="flex flex-wrap items-center gap-2 mt-5">
-            {stack.map(item => (
-              <StackCard 
-                text={item.text}
-                icon={item.icon}
-                href={item.href}
-              />
+            {stacks.map(stack => (
+            <li class="list-none py-1 px-2 rounded bg-black/5 dark:bg-white/20 text-black/75 dark:text-white/75">
+              {stack.text}
+            </li>
             ))}
           </div>
         </div>
