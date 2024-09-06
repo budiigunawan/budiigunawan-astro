@@ -1,4 +1,4 @@
-import type { Site, Page, Links, Socials } from "@types";
+import type { Site, Page, Links, Socials, Stacks } from "@types";
 
 // Global
 export const SITE: Site = {
@@ -57,25 +57,82 @@ export const SOCIALS: Socials = [
   {
     NAME: "Email",
     ICON: "email",
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "budiindra.g@gmail.com",
+    HREF: "mailto:budiindra.g@gmail.com",
   },
   {
     NAME: "Github",
     ICON: "github",
-    TEXT: "markhorn-dev",
-    HREF: "https://github.com/markhorn-dev/astro-sphere",
+    TEXT: "budiigunawan",
+    HREF: "https://github.com/budiigunawan",
   },
   {
     NAME: "LinkedIn",
     ICON: "linkedin",
-    TEXT: "markhorn-dev",
-    HREF: "https://www.linkedin.com/in/markhorn-dev/",
+    TEXT: "buigun",
+    HREF: "https://www.linkedin.com/in/buigun/",
   },
   {
     NAME: "Twitter",
     ICON: "twitter-x",
-    TEXT: "markhorn_dev",
-    HREF: "https://twitter.com/markhorn_dev",
+    TEXT: "buigun",
+    HREF: "https://twitter.com/buigun",
+  },
+];
+
+export const STACKS: Stacks = [
+  {
+    TITLE: "HTML",
+  },
+  {
+    TITLE: "CSS",
+  },
+  {
+    TITLE: "Tailwind CSS",
+  },
+  {
+    TITLE: "Javascript",
+  },
+  {
+    TITLE: "Typescript",
+  },
+  {
+    TITLE: "React JS",
+  },
+  {
+    TITLE: "Next JS",
+  },
+  {
+    TITLE: "Vue",
+  },
+  {
+    TITLE: "Node JS",
+  },
+  {
+    TITLE: "Express JS",
+  },
+  {
+    TITLE: "Bun",
+  },
+  {
+    TITLE: "PostgreSQL",
+  },
+  {
+    TITLE: "Prisma",
+  },
+  {
+    TITLE: "Git",
+  },
+  {
+    TITLE: "Jira",
+  },
+  {
+    TITLE: "Jest",
+  },
+  {
+    TITLE: "Cypress",
+  },
+  {
+    TITLE: "Figma",
   },
 ];

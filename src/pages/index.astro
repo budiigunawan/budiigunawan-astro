@@ -3,7 +3,7 @@ import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
 import ArrowCard from "@components/ArrowCard"
 import StackCard from "@components/StackCard.astro"
-import { SITE, SOCIALS } from "@consts"
+import { SITE, SOCIALS, STACKS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
 
@@ -16,60 +16,6 @@ const projects = (await getCollection("projects"))
   .filter(project => !project.data.draft)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
-
-const stacks = [
-  { 
-    text: "HTML", 
-  },
-  { 
-    text: "CSS", 
-  },
-  { 
-    text: "Javascript", 
-  },
-  { 
-    text: "Typescript", 
-  },
-  { 
-    text: "Tailwind CSS", 
-  },
-  { 
-    text: "React JS", 
-  },
-  { 
-    text: "Next JS", 
-  },
-  { 
-    text: "Vue", 
-  },
-  { 
-    text: "Node JS",  
-  },
-  { 
-    text: "Express JS", 
-  },
-  { 
-    text: "PostgreSQL",
-  },
-  { 
-    text: "Prisma", 
-  },
-  { 
-    text: "Git", 
-  },
-  { 
-    text: "Jira",  
-  },
-  { 
-    text: "Jest", 
-  },
-  { 
-    text: "Cypress", 
-  },
-  { 
-    text: "Figma", 
-  },
-]
 ---
 
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
@@ -156,9 +102,9 @@ const stacks = [
             My tech stacks
           </p>
           <div class="flex flex-wrap items-center gap-2 mt-5">
-            {stacks.map(stack => (
+            {STACKS.map(stack => (
             <li class="list-none py-1 px-2 rounded bg-black/5 dark:bg-white/20 text-black/75 dark:text-white/75">
-              {stack.text}
+              {stack.TITLE}
             </li>
             ))}
           </div>
