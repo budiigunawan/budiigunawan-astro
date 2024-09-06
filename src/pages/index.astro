@@ -56,7 +56,7 @@ const projects = (await getCollection("projects"))
     <div class="animate absolute h-full w-full flex items-center justify-center">
       <div class='relative w-full h-full flex items-center justify-center'>
         <div class='p-5 text-center'>
-          <img src="https://ucarecdn.com/e614e4da-f6ef-48ee-a8a4-ce53d43dfa50/-/scale_crop/240x240/-/border_radius/50p/" alt="Budi Indra Gunawan Smiling" class="my-0 mx-auto">
+          <img width="240px" height="240px" src="https://ucarecdn.com/e614e4da-f6ef-48ee-a8a4-ce53d43dfa50/-/preview/-/scale_crop/240x240/-/border_radius/50p/" alt="Budi Indra Gunawan Smiling" class="my-0 mx-auto">
           <p class='mt-4 animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
             Budi Indra Gunawan
           </p>
@@ -104,13 +104,13 @@ const projects = (await getCollection("projects"))
           <p class="font-semibold text-black dark:text-white">
             My tech stacks
           </p>
-          <div class="flex flex-wrap items-center gap-2 mt-5">
+          <ul class="flex flex-wrap items-center gap-2 mt-5">
             {STACKS.map(stack => (
             <li class="list-none py-1 px-2 rounded bg-black/5 dark:bg-white/20 text-black/75 dark:text-white/75">
               {stack.TITLE}
             </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
