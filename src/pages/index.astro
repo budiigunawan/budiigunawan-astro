@@ -57,7 +57,7 @@ const projects = (await getCollection("projects"))
       <div class='relative w-full h-full flex items-center justify-center'>
         <div class='p-5 text-center'>
           <img width="240px" height="240px" src="https://ucarecdn.com/e614e4da-f6ef-48ee-a8a4-ce53d43dfa50/-/preview/-/scale_crop/240x240/-/border_radius/50p/" alt="Budi Indra Gunawan Smiling" class="my-0 mx-auto">
-          <p class='mt-4 animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
+          <p class='mt-6 animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
             Budi Indra Gunawan
           </p>
           <p class='animated text-sm md:text-base lg:text-lg font-semibold opacity-75'>
@@ -69,6 +69,20 @@ const projects = (await getCollection("projects"))
             </a>
             <a href='/blog' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
               Read my blog
+            </a>
+          </div>
+          <div id="ctaLinks" class='animated flex flex-wrap gap-4 justify-center items-center mt-4'>
+            <a href="https://drive.google.com/file/d/1Jlz_uiaoz-8wHNdtHVadn_GK__HYDTIk/view?usp=drive_link" class="flex items-center gap-1 hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect width="96" height="96" x="96" y="112" fill="none" rx="16" ry="16"></rect><path d="M468 112h-52v304a32 32 0 0032 32 32 32 0 0032-32V124a12 12 0 00-12-12z"></path><path d="M431.15 477.75A64.11 64.11 0 01384 416V44a12 12 0 00-12-12H44a12 12 0 00-12 12v380a56 56 0 0056 56h342.85a1.14 1.14 0 00.3-2.25zM96 208v-96h96v96zm224 192H96v-32h224zm0-64H96v-32h224zm0-64H96v-32h224zm0-64h-96v-32h96zm0-64h-96v-32h96z"></path></svg>
+              Resume
+            </a>
+            <a href="https://www.linkedin.com/in/budiigunawan/" class="flex items-center gap-1 hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+              Linkedin
+            </a>
+            <a href="https://github.com/budiigunawan" class="flex items-center gap-1 hover:text-blue-400" target="_blank" rel="noopener noreferrer">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" class="shrink-0" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title></title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
+              Github
             </a>
           </div>
         </div>
@@ -92,9 +106,10 @@ const projects = (await getCollection("projects"))
             I love to <b><i>write codes</i></b>, <b><i>explore new things</i></b>, and <b><i>share knowledge</i></b>. I really enjoy making web application. It's like being the architect and artist of the online world. I also like to write blog about web development and self-help book summaries.
           </p>
           <h4>During my career</h4>
-          <p>I have built products ranging from simple product landing page to complex order management system with focus on delivering fast and elegant code along with delightful user interfaces.</p>
+          <p>I have built products ranging from a simple landing page to a complex OMS to support e-commerce omnichannel operations to <b><i>fulfill 100k+ orders from more than 35 stores accross Indonesia and Malaysia.</i></b></p>
           <h4>Now</h4>
-          <p>I currently work as a software engineer at ParagonCorp, the biggest cosmetic manufacturer in Indonesia, where I do web application development.</p>
+          <p>I currently work as a software engineer at ParagonCorp,<b><i> the biggest cosmetic manufacturer in Indonesia</i></b>
+          , where I do web application development.</p>
         </article>
       </section>
 

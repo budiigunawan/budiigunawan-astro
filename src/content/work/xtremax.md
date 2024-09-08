@@ -5,8 +5,9 @@ dateStart: "10/01/2022"
 dateEnd: "08/15/2023"
 ---
 
-Sit amet consectetur adipisicing elit. Iure illo neque tempora, voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor.
+Xtremax, a ceritified digital transformation company in Singapore providing cloud solutions, where I contributed as Software Developer 1 - Frontend by developing key solutions :
 
-- Aadipisicing elit. Iure illo neque tempora, voluptatem est.
-- dolorem dignissimos nulla ratione.
-- Quibusdam, debitis voluptatum, lorem ipsum dolor.
+- Built objective management module of employee performance management system using Vue JS. Improving efficiency in creating and managing employee’s objective key result.
+- Built performance review module of employee performance management system using Vue JS. Improving efficiency in managing performance review, self review, and manager review.
+- Built frontend side of AI Chat Widget using React JS within one-month timeframe for market testing.
+- Built and maintained user interface components of the Singapore Resort’s marketing website using React JS.

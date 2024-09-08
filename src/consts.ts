@@ -61,22 +61,16 @@ export const SOCIALS: Socials = [
     HREF: "mailto:budiindra.g@gmail.com",
   },
   {
+    NAME: "LinkedIn",
+    ICON: "linkedin",
+    TEXT: "Budi Indra Gunawan",
+    HREF: "https://www.linkedin.com/in/budiigunawan/",
+  },
+  {
     NAME: "Github",
     ICON: "github",
     TEXT: "budiigunawan",
     HREF: "https://github.com/budiigunawan",
-  },
-  {
-    NAME: "LinkedIn",
-    ICON: "linkedin",
-    TEXT: "buigun",
-    HREF: "https://www.linkedin.com/in/buigun/",
-  },
-  {
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "buigun",
-    HREF: "https://twitter.com/buigun",
   },
 ];
 
