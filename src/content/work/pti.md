@@ -5,8 +5,9 @@ dateStart: "09/01/2020"
 dateEnd: "09/30/2022"
 ---
 
-Sit amet consectetur adipisicing elit. Iure illo neque tempora, voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor.
+Paragon Technology and Innovation, **the largest cosmetics manufacturer in Indonesia**, where I contributed as Software Engineer to streamline e-commerce and warehouse operations by developing key solutions:
 
-- Aadipisicing elit. Iure illo neque tempora, voluptatem est.
-- dolorem dignissimos nulla ratione.
-- Quibusdam, debitis voluptatum, lorem ipsum dolor.
+- Developed a fully integrated omnichannel system using Next.js, centralizing product, order, and stock management, **reducing operational errors by 40%.**
+- Engineered an e-commerce warehouse management system using Next.js, improving inbound and outbound logistics by **reducing processing time by 30%.**
+- Designed and launched a landing page for the OMG Oh My Glam product using Gatsby.js, **contributing to a 20% increase in customer engagement from digital advertising campaigns.**
+- Collaborated with the Engineering Manager and Technical Lead to establish frontend development standards and improving code consistency.

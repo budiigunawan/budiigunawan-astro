@@ -7,7 +7,7 @@ dateEnd: "08/15/2023"
 
 Xtremax, a ceritified digital transformation company in Singapore providing cloud solutions, where I contributed as Software Developer 1 - Frontend by developing key solutions :
 
-- Built objective management module of employee performance management system using Vue JS. Improving efficiency in creating and managing employee’s objective key result.
-- Built performance review module of employee performance management system using Vue JS. Improving efficiency in managing performance review, self review, and manager review.
-- Built frontend side of AI Chat Widget using React JS within one-month timeframe for market testing.
-- Built and maintained user interface components of the Singapore Resort’s marketing website using React JS.
+- Developed frontend side of Performa, an employee performance management system, **improving OKR management efficiency by 25%, reducing time spent on performance reviews.**
+- Engineered a performance review module on Performa using Vue.js that streamlined self and manager reviews, **reducing review process time by 30%.**
+- Built and deployed the frontend for an AI Chat Widget using React.js **in a one-month timeframe, supporting rapid market testing and gathering key user feedback.**
+- Developed and maintained UI components for the Singapore Resort’s marketing website using React.js
