@@ -12,6 +12,7 @@ tags:
   - Hono
   - PostreSQL
   - Prisma
+  - Oslo
 demoUrl: https://www.janjiraga.com/
 repoUrl: https://github.com/janjiraga/janjiraga
 ---
@@ -33,27 +34,34 @@ Some features including:
 
 Our goal is to encourage people to stay active by making it easy to find and join local sports events, no matter your skill level. We want to help you meet new friends who share your passion for sports and give you the tools to organize your own events. By bringing people together, we hope to make sports more enjoyable and accessible for everyone.
 
+## Links
+
+- <a href="https://janjiraga.com/" target="_blank">Janjiraga Website</a>
+- <a href="https://api.janjiraga.com/ui" target="_blank">Janjiraga API Swagger</a>
+- <a href="https://github.com/janjiraga/janjiraga" target="_blank">Repository</a>
+- <a href="https://www.figma.com/design/2QOiiSzJylEJ4YrV1f4TCN/Janjiraga?node-id=0-1&t=jydVLkQ9EU0IKiKQ-1" target="_blank">UI Design</a>
+
 ## Tech Stack Used
 
 ### Backend
 
-- [Hono](https://hono.dev/) over [Bun](https://bun.sh/) runtime
-- [Typescript](https://www.typescriptlang.org/)
-- [Prisma ORM](https://www.prisma.io/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Render](https://render.com/)
-- [Neon](https://neon.tech/)
+- Hono
+- Typescript
+- Prisma ORM
+- PostgreSQL
+- Render
+- Neon
 
 ### Frontend
 
-- [Typescript](https://www.typescriptlang.org/)
-- [Vite](https://vite.dev/)
-- [React](https://react.dev/)
-- [Tailwind](https://react.dev/)
-- [Shadcn/ui](https://ui.shadcn.com/)
-- [React Hook Form](https://www.react-hook-form.com/)
-- [Zod](https://zod.dev/)
-- [Mapbox](https://www.mapbox.com/)
+- Typescript
+- Vite
+- React
+- Tailwind
+- Shadcn/ui
+- React Hook Form
+- Zod
+- Mapbox
 
 ## Video Demo
 
